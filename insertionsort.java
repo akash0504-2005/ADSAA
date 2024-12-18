@@ -10,7 +10,7 @@ public class InsertionSort {
         for (int i = 0; i < n; i++) 
             A[i] = sc.nextInt();
 
-        selectionSort(A);
+        InsertionSort(A);
 
         System.out.println("Sorted array:");
         for (int i = 0; i < A.length; i++) 
