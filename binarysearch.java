@@ -66,3 +66,14 @@ public class BinarySearch {
         return -1;
     }
 }
+
+
+//output
+Enter size of array:
+5
+Enter 5 numbers (sorted in ascending order):
+10 20 30 40 50
+Enter element to search:
+30
+Element found at location 2
+
