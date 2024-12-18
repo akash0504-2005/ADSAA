@@ -17,7 +17,7 @@ public class InsertionSort {
             System.out.println(A[i] + " ");
     }
 
-    static void selectionSort(int[] A) {
+    static void InsertionSort(int[] A) {
         int n = A.length;
         for (int i = 0; i < n ; i++) {
            
