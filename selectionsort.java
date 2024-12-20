@@ -21,37 +21,32 @@ public class SelectionSort {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        
+        Scanner scanner = new Scanner(System.in); 
         System.out.print("Enter the number of elements: ");
         int n = scanner.nextInt();
-        
         int[] arr = new int[n];
-        
-        
         System.out.println("Enter the elements:");
         for (int i = 0; i < n; i++) {
             arr[i] = scanner.nextInt();
         }
 
         System.out.println("Original array: " + Arrays.toString(arr));
-
-        
         long startTime = System.nanoTime();
-
-    
         selectionSort(arr);
-
-
         long endTime = System.nanoTime();
-
         System.out.println("Sorted array: " + Arrays.toString(arr));
-        
-        
         long duration = endTime - startTime;
         System.out.println("Selection Sort Time: " + duration + " nanoseconds");
 
         scanner.close();
     }
 }
+
+//output
+Enter the number of elements: 4
+Enter the elements:
+25 11 22 64
+Original array: [25, 11, 22, 64]
+Sorted array: [11, 22, 25, 64]
+Selection Sort Time: 600000 nanoseconds
+
