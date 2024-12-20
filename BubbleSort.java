@@ -46,3 +46,13 @@ public class BubbleSort {
         }
     }
 }
+
+
+//output
+Enter the number of elements: 5
+Enter the elements:
+64 34 25 12 22
+Original array: [64, 34, 25, 12, 22]
+Sorted array: [12, 22, 25, 34, 64]
+Bubble Sort Time: 800000 nanoseconds
+
